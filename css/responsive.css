@@ -1,0 +1,101 @@
+@media(min-width: 992px) and (max-width:1199px) {
+    .verify-area.bg-image {
+        height: 76vh;
+    }
+    .verify-form {
+        transform: translate(46%, 17%);
+        -ms-transform: translate(46%, 17%);
+        -o-transform: translate(46%, 17%);
+        -webkit-transform: translate(46%, 17%);
+        -moz-transform: translate(46%, 17%);
+    }
+    .banner_text a {
+        margin: 50px 10px 22px 11px;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    #mynav {
+        margin-top: 30px;
+    }
+    #mynav ul li a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .verify-form {
+        transform: translateY(-5%);
+        -webkit-transform: translateY(-5%);
+        -moz-transform: translateY(-5%);
+        -ms-transform: translateY(-5%);
+        -o-transform: translateY(-5%);
+    }
+}
+
+@media(min-width: 576px) and (max-width:767px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    #mynav {
+        margin-top: 30px;
+    }
+    #mynav ul li a {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    .banner_text h2 {
+        font-size: 35px;
+    }
+    .about_inner h3 {
+        font-size: 20px;
+    }
+    .verify-form {
+        transform: translate(0, 6%);
+        -webkit-transform: translate(0, 6%);
+        -moz-transform: translate(0, 6%);
+        -ms-transform: translate(0, 6%);
+        -o-transform: translate(0, 6%);
+    }
+}
+
+@media(max-width:575px) {
+    .customnav {
+        background: rgba(0, 0, 0, .8);
+    }
+    #mynav {
+        margin-top: 30px;
+    }
+    #mynav ul li a {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    .banner_text h2 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+    .banner_text p {
+        font-size: 14px;
+        max-width: 100%;
+        font-weight: 400;
+    }
+    .banner_item {
+        height: 500px;
+    }
+    .banner_text a {
+        font-size: 14px;
+        width: 130px;
+        margin: 30px 0px 0 0px;
+    }
+    .slick-dots {
+        bottom: 25px;
+    }
+    .verify-form {
+        transform: translate(5%, 4%);
+        -webkit-transform: translate(5%, 4%);
+        -moz-transform: translate(5%, 4%);
+        -ms-transform: translate(5%, 4%);
+        -o-transform: translate(5%, 4%);
+    }
+}
